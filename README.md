@@ -1,16 +1,69 @@
-# medicalcare
+# 🧠 Brain Tumor Detection App
 
-A new Flutter project.
+An AI-powered mobile application built using **Flutter**/**Dart**, designed to detect brain tumors from MRI images using a **TensorFlow Lite** model. The app features a clean UI, local inference, and intuitive image upload and detection functionality.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📤 Upload brain MRI images
+- 🧠 Local tumor detection using TensorFlow Lite model
+- 🔍 Displays confidence level of prediction
+- 🎯 Simple, mobile-friendly interface
+- 🧾 Scrollable interface with results preview and visual indicators
+- 🧾 Consult button to consult your doctor
+- 🧠 List of some highly qualified Doctors of different feilds.
+- 🧾 Page specified for detail information about all types of tumors
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Technology Stack
+
+- **Android Studio**
+- **Flutter**
+- **Dart**
+- **TensorFlow Lite** (for on-device model inference)
+
+---
+
+## 🚧 Disclaimer
+
+> ⚠️ **Note:** This repository does **not include** the trained machine learning model file (`.tflite`).  
+> To download or view the model, please visit my other repository:
+
+🔗 [Tumor_Model_Repository](https://github.com/Devansh1804/Brain_tumor_detection_model)
+
+---
+
+## 🔧 Installation & Setup
+
+1. **Clone this repository**
+   ```bash
+   git clone -b master https://github.com/your-username/Brain_Tumor_Detection_App.git
+   cd Brain_Tumor_Detection_App
+
+2. **Open in Android Studio or VS Code**
+   
+   Open the project using Android Studio with Flutter plugin installed
+
+3. **Install dependencies**
+   ```bash
+   flutter pub get
+
+4. **Add the TensorFlow Lite model**
+   Place your .tflite model file in:
+   ```bash
+   assets/tumor_model.tflite
+
+5. **Ensure your pubspec.yaml includes:**
+assets:
+- assets/tumor_model.tflite
+
+6. **Run the App**
+   
+   a. Connect your Android device or emulator
+
+   b. Run:
+   ```bash
+   flutter run
+
