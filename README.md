@@ -43,25 +43,16 @@ An AI-powered mobile application built using **Flutter**, designed to detect bra
    Open the project using Android Studio with Flutter plugin installed
 
 3. **Install dependencies**
-
-```bash
+   ```bash
 flutter pub get
 
 4. **Add the TensorFlow Lite model**
-
-  Place your .tflite model file in:
-```bash
+   Place your .tflite model file in:
+   ```bash
 assets/tumor_model.tflite
 
-  Ensure your pubspec.yaml includes:
-yaml
+   Ensure your pubspec.yaml includes:
+   ```yaml
 assets:
-  - assets/tumor_model.tflite
+- assets/tumor_model.tflite
 
-
-5. **Run the App**
-  Connect your Android device or emulator
-  Run:
-
-```bash
-flutter run
