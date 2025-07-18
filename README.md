@@ -51,8 +51,15 @@ An AI-powered mobile application built using **Flutter**, designed to detect bra
    ```bash
    assets/tumor_model.tflite
 
-   Ensure your pubspec.yaml includes:
+5. **Ensure your pubspec.yaml includes:**
    ```yaml
 assets:
 - assets/tumor_model.tflite
+
+6. **Run the App**
+   a. Connect your Android device or emulator
+
+   b. Run:
+   ```bash
+   flutter run
 
