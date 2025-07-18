@@ -38,36 +38,30 @@ An AI-powered mobile application built using **Flutter**, designed to detect bra
    ```bash
    git clone -b master https://github.com/your-username/Brain_Tumor_Detection_App.git
    cd Brain_Tumor_Detection_App
-Open in Android Studio or VS Code
 
-Open the project using Android Studio with Flutter plugin installed
+2. **Open in Android Studio or VS Code**
+   Open the project using Android Studio with Flutter plugin installed
 
-Install dependencies
+3. **Install dependencies**
 
-bash
-Copy
-Edit
+```bash
 flutter pub get
-Add the TensorFlow Lite model
 
-Place your .tflite model file in:
+4. **Add the TensorFlow Lite model**
 
-bash
-Copy
-Edit
+  Place your .tflite model file in:
+```bash
 assets/tumor_model.tflite
-Ensure your pubspec.yaml includes:
 
+  Ensure your pubspec.yaml includes:
 yaml
-Copy
-Edit
 assets:
   - assets/tumor_model.tflite
-Run the App
 
-Connect your Android device or emulator
 
-Run:
+5. **Run the App**
+  Connect your Android device or emulator
+  Run:
 
-bash
+```bash
 flutter run
