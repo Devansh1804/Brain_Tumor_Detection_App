@@ -11,6 +11,9 @@ An AI-powered mobile application built using **Flutter**, designed to detect bra
 - 🔍 Displays confidence level of prediction
 - 🎯 Simple, mobile-friendly interface
 - 🧾 Scrollable interface with results preview and visual indicators
+- 🧾 Consult button to consult your doctor
+- 🧠 List of some highly qualified Doctors of different feilds.
+- 🧾 Page specified for detail information about all types of tumors
 
 ---
 
@@ -40,6 +43,7 @@ An AI-powered mobile application built using **Flutter**, designed to detect bra
    cd Brain_Tumor_Detection_App
 
 2. **Open in Android Studio or VS Code**
+   
    Open the project using Android Studio with Flutter plugin installed
 
 3. **Install dependencies**
@@ -52,11 +56,11 @@ An AI-powered mobile application built using **Flutter**, designed to detect bra
    assets/tumor_model.tflite
 
 5. **Ensure your pubspec.yaml includes:**
-   ```yaml
 assets:
 - assets/tumor_model.tflite
 
 6. **Run the App**
+   
    a. Connect your Android device or emulator
 
    b. Run:
