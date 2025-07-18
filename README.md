@@ -28,7 +28,7 @@ An AI-powered mobile application built using **Flutter**/**Dart**, designed to d
 
 ## 🚧 Disclaimer
 
-> ⚠️ **Note:** This repository does **not include** the trained machine learning model file (`.tflite`).  
+> ⚠️ **Note:** This repository does **not include** how the model is trained (`.tflite`).  
 > To download or view the model, please visit my other repository:
 
 🔗 [Tumor_Model_Repository](https://github.com/Devansh1804/Brain_tumor_detection_model)
