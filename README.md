@@ -44,12 +44,12 @@ An AI-powered mobile application built using **Flutter**, designed to detect bra
 
 3. **Install dependencies**
    ```bash
-flutter pub get
+   flutter pub get
 
 4. **Add the TensorFlow Lite model**
    Place your .tflite model file in:
    ```bash
-assets/tumor_model.tflite
+   assets/tumor_model.tflite
 
    Ensure your pubspec.yaml includes:
    ```yaml
